@@ -1,113 +1,102 @@
-import Image from "next/image";
+import Page from "./home/page";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.js</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+    <div className="">
+      <Page />
+    </div>
   );
+
+  // [
+  //   {
+  //     id: 1,
+  //     rating: 5,
+  //     caption: "An Unforgettable Day with Maria Gonzalez",
+  //     review:
+  //       "Our visit to Machu Picchu was made exceptional thanks to Maria. Her deep knowledge of Incan history and her engaging storytelling made the ancient ruins come alive. Maria was attentive to our interests and took us to the best viewpoints for photos. We couldn't have asked for a better guide for this once-in-a-lifetime experience.",
+  //     name: "Robert and Lily Adams",
+  //     location: "Machu Picchu, Peru",
+  //     date: "April 15, 2024",
+  //   },
+  //   {
+  //     id: 2,
+  //     rating: 3.0,
+  //     caption: "A Fantastic Day in Rome with Luca Romano",
+  //     review:
+  //       "Luca guided us through Rome with such expertise and enthusiasm. His historical knowledge of landmarks like the Colosseum and the Roman Forum was impressive. Luca's friendly demeanor and patience made the tour enjoyable and informative. I highly recommend him for anyone looking to explore the rich history of Rome.",
+  //     name: "Sophie Chen",
+  //     location: "Rome, Italy",
+  //     date: "May 22, 2024",
+  //   },
+  //   {
+  //     id: 3,
+  //     rating: 4.5,
+  //     caption: "A Wonderful Safari Experience with Amina Mwangi",
+  //     review:
+  //       "Amina made our safari in the Serengeti an extraordinary adventure. Her expertise in wildlife tracking and her ability to spot elusive animals were remarkable. She shared fascinating facts about the ecosystem and ensured we had a comfortable and thrilling experience. Amina's passion for conservation and wildlife made this tour truly special.",
+  //     name: "James Carter",
+  //     location: "Serengeti National Park, Tanzania",
+  //     date: "June 10, 2024",
+  //   },
+  //   {
+  //     id: 4,
+  //     rating: 4.0,
+  //     caption: "Exploring Tokyo with Hiroshi Yamamoto",
+  //     review:
+  //       "Hiroshi was an exceptional guide during our Tokyo tour. He provided insightful information about the city's history and culture, and his recommendations for local dining were superb. Hiroshi's enthusiasm and deep knowledge of Tokyo made our visit unforgettable. We greatly appreciated his attention to detail and the personalized touch he brought to the tour.",
+  //     name: "Laura Smith",
+  //     location: "Tokyo, Japan",
+  //     date: "July 8, 2024",
+  //   },
+  //   {
+  //     id: 5,
+  //     rating: 4.8,
+  //     caption: "A Magical Day in Santorini with Elena Papadopoulos",
+  //     review:
+  //       "Elena guided us through the breathtaking island of Santorini, and we couldn't have been happier with our experience. Her knowledge of the island's history, coupled with her recommendations for local food and wine, made our day truly special. The sunset view from Oia was the highlight of our trip, thanks to Elena's perfect timing and expert guidance.",
+  //     name: "Mark and Julia Thompson",
+  //     location: "Santorini, Greece",
+  //     date: "August 3, 2024",
+  //   },
+  //   {
+  //     id: 6,
+  //     rating: 5.0,
+  //     caption: "Discovering Berlin's History with Thomas Müller",
+  //     review:
+  //       "Thomas took us on an incredible journey through Berlin's complex history. His deep understanding of the city's past, particularly during the Cold War, added immense value to our visit. Thomas's passion for history and his ability to engage us with stories and anecdotes made the tour unforgettable. We left with a much deeper appreciation for Berlin.",
+  //     name: "Emily and Ryan Davis",
+  //     location: "Berlin, Germany",
+  //     date: "March 28, 2024",
+  //   },
+  //   {
+  //     id: 7,
+  //     rating: 3.8,
+  //     caption: "A Scenic Tour of the Swiss Alps with Claudia Meier",
+  //     review:
+  //       "Claudia provided an exceptional tour of the Swiss Alps, highlighting the natural beauty and cultural significance of the region. Her enthusiasm for the outdoors and her detailed explanations about the local flora and fauna were impressive. The views from the mountain trails were breathtaking, and Claudia made sure the experience was both safe and enjoyable.",
+  //     name: "Samuel Green",
+  //     location: "Swiss Alps, Switzerland",
+  //     date: "February 12, 2024",
+  //   },
+  //   {
+  //     id: 8,
+  //     rating: 4.0,
+  //     caption: "A Cultural Immersion in Marrakech with Ahmed Benyahia",
+  //     review:
+  //       "Ahmed's tour of Marrakech was nothing short of amazing. He introduced us to the vibrant markets, historic sites, and rich cultural traditions of the city. Ahmed's warmth and hospitality made us feel welcome and at ease as we navigated the bustling streets. His insights into Moroccan culture and history enriched our understanding and appreciation of Marrakech.",
+  //     name: "Olivia Martinez",
+  //     location: "Marrakech, Morocco",
+  //     date: "January 17, 2024",
+  //   },
+  //   {
+  //     id: 9,
+  //     rating: 4.2,
+  //     caption: "A Journey Through the Highlands with Fiona McDonald",
+  //     review:
+  //       "Fiona was a fantastic guide through the Scottish Highlands. Her knowledge of the area's history, combined with her love for storytelling, made the tour incredibly engaging. The scenic beauty of the Highlands was matched only by Fiona's passion for sharing the legends and lore of Scotland. It was an experience we'll never forget.",
+  //     name: "Henry and Alice Roberts",
+  //     location: "Scottish Highlands, Scotland",
+  //     date: "July 18, 2024",
+  //   },
+  // ];
 }
