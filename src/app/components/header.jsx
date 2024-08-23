@@ -57,10 +57,10 @@ export default function Header() {
           </div>
 
           <div className="hidden md:flex items-center gap-x-2 lg:gap-x-4 ">
-            <button className="bg-transparent font-medium font-poppins rounded-full px-6 py-2 border border-gray-200 text-black hover:border-2 hover:border-red-500 opacity transition duration-300 ">
+            <button className="bg-transparent font-medium font-poppins rounded-full px-6 py-2 border border-gray-200 hover:border hover:border-gray-300 hover:shadow-lg text-black  opacity transition duration-300 ">
               Login
             </button>
-            <button className="bg-red-600 font-medium font-poppins rounded-full border-none shadow-md px-4 py-2 text-white hover:bg-red-700  hover:transition hover:duration-300 ">
+            <button className="bg-red-600 font-medium font-poppins rounded-full border-none shadow-md px-4 py-2 text-white hover:bg-red-500 hover:shadow-lg  hover:transition hover:duration-300 ">
               Sign Up
             </button>
           </div>

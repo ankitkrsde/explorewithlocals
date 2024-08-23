@@ -7,7 +7,7 @@
 /* setting our custom styles for our body */
 @layer base {
   body {
-    @apply font-inter bg-gradient-to-l from-gray-200 via-fuchsia-100 to-stone-200;
+    @apply font-inter bg-gradient-to-r from-indigo-100 to-yellow-50;
   }
   h1,
   h2,
