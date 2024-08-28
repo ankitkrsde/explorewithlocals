@@ -21,7 +21,7 @@ export default function Header() {
         <nav className=" px-10 lg:px-24 py-1 flex justify-between  items-center  bg-white shadow-md z-30">
           <div className="flex items-center">
             <div className="my-4">
-              <Link href="href">
+              <Link href="/">
                 <Image
                   className="object-cover max-w-40 max-h-40"
                   src={logoImg}
@@ -122,6 +122,12 @@ export default function Header() {
                   className="mx-3 my-3 p-3 hover:bg-gray-200 font-poppins block font-semibold text-gray-800 rounded-md"
                 >
                   Terms & Conditions
+                </Link>
+                <Link
+                  href="/faqs"
+                  className="mx-3 my-3 p-3 hover:bg-gray-200 font-poppins block font-semibold text-gray-800 rounded-md"
+                >
+                  FAQs
                 </Link>
               </div>
               <div className="h-[2px] w-full my-4 bg-gray-200"></div>

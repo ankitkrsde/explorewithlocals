@@ -1,10 +1,10 @@
 import React from "react";
-import ContactUs from "../components/contactUs";
+import Terms from "../components/terms";
 
 export default function Page() {
   return (
     <div>
-      <ContactUs />
+      <Terms />
     </div>
   );
 }

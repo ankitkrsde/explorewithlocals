@@ -5,6 +5,7 @@ import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaYoutubeSquare } from "react-icons/fa";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -24,9 +25,11 @@ export default function Footer() {
           <div className="flex flex-col gap-5 text-gray-50">
             <h3 className="text-yellow-400 text-lg">ExploreWithLocals</h3>
             <div className="flex flex-col gap-4 cursor-pointer">
-              <p className="w-fit hover:underline hover:underline-offset-4 hover:transition-all">
-                About Us
-              </p>
+              <Link href="/about">
+                <p className="w-fit hover:underline hover:underline-offset-4 hover:transition-all">
+                  About Us
+                </p>
+              </Link>
               <p className="w-fit hover:underline hover:underline-offset-4 hover:transition-all">
                 Blog
               </p>
@@ -35,18 +38,26 @@ export default function Footer() {
           <div className="flex flex-col gap-5 text-gray-50">
             <h3 className="text-yellow-400 text-lg">Support</h3>
             <div className="flex flex-col gap-4 cursor-pointer">
-              <p className="w-fit hover:underline hover:underline-offset-4 hover:transition-all">
-                Contact Us
-              </p>
-              <p className="w-fit hover:underline hover:underline-offset-4 hover:transition-all">
-                Terms & Conditions
-              </p>
-              <p className="w-fit hover:underline hover:underline-offset-4 hover:transition-all">
-                Privacy Policy
-              </p>
-              <p className="w-fit hover:underline hover:underline-offset-4 hover:transition-all">
-                FAQs
-              </p>
+              <Link href="/contact">
+                <p className="w-fit hover:underline hover:underline-offset-4 hover:transition-all">
+                  Contact Us
+                </p>
+              </Link>
+              <Link href="/terms">
+                <p className="w-fit hover:underline hover:underline-offset-4 hover:transition-all">
+                  Terms & Conditions
+                </p>
+              </Link>
+              <Link href="/privacy">
+                <p className="w-fit hover:underline hover:underline-offset-4 hover:transition-all">
+                  Privacy Policy
+                </p>
+              </Link>
+              <Link href="/faqs">
+                <p className="w-fit hover:underline hover:underline-offset-4 hover:transition-all">
+                  FAQs
+                </p>
+              </Link>
             </div>
           </div>
           <div className="flex flex-col gap-5 text-gray-50">

@@ -1,7 +1,7 @@
 import React from "react";
 import AboutUs from "../components/aboutUs";
 
-export default function About() {
+export default function Page() {
   return (
     <div>
       <AboutUs />
