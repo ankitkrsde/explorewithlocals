@@ -52,10 +52,11 @@ export default function AboutUs() {
           </div>
           <p className="mt-4 text-lg text-gray-700">
             At ExploreWithLocals, we believe that travel is not just about
-            visiting new places — it's about experiencing the world in its most
-            authentic and enriching form. Founded with a passion for exploration
-            and a deep love for culture, our mission is to connect travelers
-            with unforgettable experiences that go beyond the ordinary.
+            visiting new places — it&apos;s about experiencing the world in its
+            most authentic and enriching form. Founded with a passion for
+            exploration and a deep love for culture, our mission is to connect
+            travelers with unforgettable experiences that go beyond the
+            ordinary.
           </p>
         </div>
 

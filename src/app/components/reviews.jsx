@@ -112,7 +112,7 @@ export default function Reviews() {
                     {review.caption}
                   </h3>
                   <p className="text-left font-light text-[15px]">
-                    "{review.review}"
+                    &quot;{review.review}&quot;
                   </p>
                 </div>
                 <div className="w-full flex items-center">

@@ -26,11 +26,11 @@ export default function Guide() {
           </div>
           <div className="absolute top-1/4 px-10 md:px-24 flex flex-col items-center gap-4 sm:gap-6 md:gap-8 lg:gap-12">
             <p className="text-white text-xs sm:text-sm md:text-lg lg:text-2xl">
-              "We’re pioneers, storytellers, and explorers of the unbeaten path,
-              dedicated to those who crave unique travel experiences. If you’re
-              eager to join a community of innovative local tour guides who
-              excel at crafting unforgettable journeys, we’d love to connect
-              with you"
+              &quot;We’re pioneers, storytellers, and explorers of the unbeaten
+              path, dedicated to those who crave unique travel experiences. If
+              you’re eager to join a community of innovative local tour guides
+              who excel at crafting unforgettable journeys, we’d love to connect
+              with you&quot;
             </p>
             <div className=" flex items-center justify-center gap-1 px-[4px] py-[3px] sm:px-2 sm:py-1 lg:px-3 lg:py-2 border-2 border-red-500 w-fit hover:bg-red-500 hover:transition-all">
               <button className="text-white font-medium text-xs sm:text-sm md:text-md lg:text-lg ">

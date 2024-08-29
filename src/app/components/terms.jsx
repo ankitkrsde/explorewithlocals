@@ -36,10 +36,10 @@ export default function Terms() {
             Welcome to Explore With Locals
           </h3>
           <p className=" text-gray-700 text-lg">
-            These Terms and Conditions ("Terms") govern your use of our website
-            and services. By accessing our website or booking a tour with [Your
-            Company Name], you agree to comply with these Terms. Please read
-            them carefully.
+            These Terms and Conditions (&quot;Terms&quot;) govern your use of
+            our website and services. By accessing our website or booking a tour
+            with Explore With Locals, you agree to comply with these Terms.
+            Please read them carefully.
           </p>
         </div>
       </div>

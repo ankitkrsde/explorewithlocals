@@ -23,7 +23,7 @@ export default function Faq() {
           <div className="flex items-center gap-0 md:gap-4 font-poppins text-lg text-gray-700 font-medium">
             <span className="h-[2px] w-16 bg-purple-500"></span>
             <span className=" text-white md:text-gray-800 bg-none md:bg-gray-50 px-4 text-sm sm:text-lg md:text-xl text-center">
-              Got Questions? We've Got Answers
+              Got Questions? We&apos;ve Got Answers
             </span>
             <span className="h-[2px] w-16 bg-purple-500"></span>
           </div>
