@@ -78,8 +78,8 @@ export default function AboutUs() {
             What We Offer
           </h3>
           <p className="text-gray-700">
-            Whether you're a solo traveler, a couple on a romantic getaway, or a
-            family looking for an exciting adventure, ExploreWithLocals has
+            Whether you&apos;re a solo traveler, a couple on a romantic getaway,
+            or a family looking for an exciting adventure, ExploreWithLocals has
             something for everyone. Our carefully curated tours are designed to
             offer a unique perspective on each destination, highlighting hidden
             gems, local traditions, and authentic experiences that you won’t
