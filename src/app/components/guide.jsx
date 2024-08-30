@@ -22,10 +22,16 @@ export default function Guide() {
 
         <div id="bg-image" className=" relative mt-12">
           <div className=" brightness-50">
-            <Image src={guide1} alt="guide" width={1500} height={1000} />
+            <Image
+              src={guide1}
+              alt="guide"
+              width={1500}
+              height={1000}
+              className="h-[18vh] sm:h-auto"
+            />
           </div>
-          <div className="absolute top-1/4 px-10 md:px-24 flex flex-col items-center gap-4 sm:gap-6 md:gap-8 lg:gap-12">
-            <p className="text-white text-xs sm:text-sm md:text-lg lg:text-2xl">
+          <div className="absolute top-[5%] sm:top-1/4 px-10 md:px-24 flex flex-col items-center gap-2 sm:gap-6 md:gap-8 lg:gap-12">
+            <p className="text-white text-[10px] sm:text-sm md:text-lg lg:text-2xl">
               &quot;We’re pioneers, storytellers, and explorers of the unbeaten
               path, dedicated to those who crave unique travel experiences. If
               you’re eager to join a community of innovative local tour guides

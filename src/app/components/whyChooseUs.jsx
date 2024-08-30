@@ -9,9 +9,9 @@ export default function WhyChooseUs() {
     <>
       <div className="w-full mt-24 flex flex-col items-center justify-center text-center">
         <div className="flex flex-col items-center justify-center mb-16 ">
-          <div className="flex items-center gap-4 font-poppins text-lg text-gray-700 font-medium">
+          <div className="flex items-center gap-0 md:gap-4 font-poppins text-lg text-gray-700 font-medium">
             <span className="h-[2px] w-16 bg-purple-500"></span>
-            <span className="text-lg md:text-xl">
+            <span className="text-base md:text-xl">
               Experience the best with{" "}
               <span className="text-red-600">ExploreWithLocals</span>
             </span>
